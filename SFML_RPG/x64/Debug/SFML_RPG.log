@@ -1,0 +1,11 @@
+﻿  Entity.cpp
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\Entity.h(14,10): fatal error C1083: Не удается открыть файл включение: SFML\System.hpp: No such file or directory,
+  Game.cpp
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\Entity.h(14,10): fatal error C1083: Не удается открыть файл включение: SFML\System.hpp: No such file or directory,
+  GameState.cpp
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\Entity.h(14,10): fatal error C1083: Не удается открыть файл включение: SFML\System.hpp: No such file or directory,
+  main.cpp
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\Entity.h(14,10): fatal error C1083: Не удается открыть файл включение: SFML\System.hpp: No such file or directory,
+  State.cpp
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\Entity.h(14,10): fatal error C1083: Не удается открыть файл включение: SFML\System.hpp: No such file or directory,
+  Создание кода...

@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,47): error C2143: синтаксическая ошибка: отсутствие ")" перед "константа"
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,42): error C2440: <function-style-cast>: невозможно преобразовать "int" в "sf::VideoMode"
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,42): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,47): error C2059: синтаксическая ошибка: константа
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,42): error C2059: синтаксическая ошибка: )
