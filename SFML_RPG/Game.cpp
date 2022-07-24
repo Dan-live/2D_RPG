@@ -31,10 +31,35 @@ void Game::initWindow()
     this->window->setVerticalSyncEnabled(vertical_sync_enabled);
 }
 
+void Game::initKeys()
+{
+    std::ifstream ifs("Config/supported_keys.ini");
+    if (ifs.is_open())
+    {
+        std::string key = "";
+        int key_value = 0;
+        while (ifs >> key >> key_value)
+        {
+            this->supportedKeys[key] = key_value;
+        }
+    }
+    ifs.close();
+
+
+    //DEBUG REMOVE LETER!
+    for (auto i : this->supportedKeys)
+    {
+        std::cout << i.first << " " << i.second << "\n";
+    }
+
+}
+
 void Game::initStates()
 {
-    this->states.push(new GameState(this->window));
+    this->states.push(new GameState(this->window, &this->supportedKeys));
 }
+
+
 
 //Constructor/Destructors
 
@@ -42,7 +67,10 @@ void Game::initStates()
 Game::Game()
 {
     this->initWindow();
+    this->initKeys();
     this->initStates();
+    
+    
 }
 
 Game::~Game()
@@ -74,7 +102,7 @@ void Game::updateDt()
     this->dt = this->dtClock.restart().asSeconds();
 
     system("cls");
-    std::cout << this->dt << "\n";
+   // std::cout << this->dt << "\n";
 }
 
 void Game::updateSFMLEvents()
