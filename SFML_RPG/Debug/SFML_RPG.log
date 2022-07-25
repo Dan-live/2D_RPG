@@ -1,4 +1,5 @@
-﻿  Game.cpp
+﻿  Button.cpp
+  Game.cpp
   MainMenuState.cpp
 D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\MainMenuState.cpp(35,78): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
