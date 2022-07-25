@@ -1,2 +1,23 @@
 ﻿  Game.cpp
+  MainMenuState.cpp
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\MainMenuState.cpp(35,78): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\MainMenuState.cpp(35,57): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  main.cpp
+  Создание кода...
   SFML_RPG.vcxproj -> D:\University\k1s2\sda\prep\SFML_RPG\Debug\SFML_RPG.exe
