@@ -12,11 +12,14 @@
 #include "SFML\Graphics.hpp"
 #include "SFML\Audio.hpp"
 
-
+enum button_states{BTN_IDLE = 0, BTN_HOVER, BTN_ACTIVE};
 
 class Button
 {
 private:
+	short unsigned buttonState; 
+
+
 	sf::RectangleShape shape;
 	sf::Font* font;
 	sf::Text text;
@@ -36,6 +39,8 @@ public:
 	~Button();
 
 
+	//Accessors
+	const bool isPressed() const;
 	//Functions
 
 	void update(sf::Vector2f mousePos);  

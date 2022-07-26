@@ -20,6 +20,8 @@ public:
     virtual ~MainMenuState();
 
 
+    Button* gamestate_btn;
+
     //Functions
     void endState();
 
