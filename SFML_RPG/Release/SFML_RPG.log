@@ -1,6 +1,30 @@
-﻿  main.cpp
-D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,47): error C2143: синтаксическая ошибка: отсутствие ")" перед "константа"
-D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,42): error C2440: <function-style-cast>: невозможно преобразовать "int" в "sf::VideoMode"
-D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,42): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,47): error C2059: синтаксическая ошибка: константа
-D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\main.cpp(9,42): error C2059: синтаксическая ошибка: )
+﻿  Button.cpp
+  Entity.cpp
+  Game.cpp
+  GameState.cpp
+  main.cpp
+  MainMenuState.cpp
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\MainMenuState.cpp(48,78): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\University\k1s2\sda\prep\SFML_RPG\SFML_RPG\MainMenuState.cpp(48,57): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  State.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 555 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  SFML_RPG.vcxproj -> D:\University\k1s2\sda\prep\SFML_RPG\Release\SFML_RPG.exe
