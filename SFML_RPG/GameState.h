@@ -6,11 +6,13 @@ class GameState :
     public State
 {
 private:
-    Entity player;
+    Player* player;
 
     //functions
 
     void initKeybinds();
+    void initTexures();
+    void initPlayers();
 
 public:
     GameState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys, std::stack<State*>* states);
