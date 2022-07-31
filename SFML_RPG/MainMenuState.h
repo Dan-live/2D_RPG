@@ -29,7 +29,6 @@ public:
 
 
     //Functions
-    void endState();
 
     void updateInput(const float& dt);
     void updateButtons();
