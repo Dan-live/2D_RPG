@@ -22,6 +22,9 @@
     <Filter Include="Resource Files">
       <UniqueIdentifier>{af88df78-636c-4f29-bdc5-e82e1da72dd6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{6f5baf7a-eab2-46de-898e-d19684d40703}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -45,8 +48,11 @@
     <ClCompile Include="Button.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Entites</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -68,8 +74,11 @@
     <ClInclude Include="Button.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Entites</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
