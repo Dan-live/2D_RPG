@@ -69,6 +69,31 @@ private:
 			}
 		}
 
+		void play(const float& dt, const float& modifier, const float& modifier_max)
+		{
+			//Update timer
+
+			this->timer += (modifier / modifier_max) * 100.f * dt;
+			if (this->timer >= this->animationTimer)
+			{
+				//reset timer
+				this->timer = 0.f;
+
+
+				//Animate
+				if (this->currentRect != this->endRect)
+				{
+					this->currentRect.left += this->width;
+				}
+				else //Reset
+				{
+					this->currentRect.left = this->startRect.left;
+				}
+
+				this->sprite.setTextureRect(this->currentRect);
+			}
+		}
+
 
 
 		void reset() 
@@ -97,5 +122,7 @@ public:
 
 
 	void play(const std::string key, const float& dt);
+	void play(const std::string key, const float& dt, const float& modifier, const float& modifier_max);
+
 };
 
